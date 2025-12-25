@@ -1,0 +1,23 @@
+{
+  "name": "youtube-video-downloader",
+  "version": "1.0.0",
+  "description": "Professional YouTube video downloader with Express.js backend",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "youtube",
+    "downloader",
+    "video",
+    "express"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "@distube/ytdl-core": "^4.14.4",
+    "cors": "^2.8.5"
+  }
+}
